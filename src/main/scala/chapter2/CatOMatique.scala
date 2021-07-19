@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 2.4.5.1: Cat-o-matique
-*/
+ */
 
 package chapter2
 

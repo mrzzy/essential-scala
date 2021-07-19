@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 2.4.5.3: Precise Square Dance!
-*/
+ */
 
 package chapter2
 
@@ -12,4 +12,3 @@ object PreciseSquareDance {
     def square(x: Int) = x * x
   }
 }
-
