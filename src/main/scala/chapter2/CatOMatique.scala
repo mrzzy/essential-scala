@@ -5,13 +5,19 @@
 
 package chapter2
 
-case class Cat(name: String, color: String, food: String)
-
 object CatOMatique {
-  val cats = List(
-      new Cat("Oswald", "Black", "Milk"),
-      new Cat("Henderson", "Ginger", "Chips"),
-      new Cat("Quentin", "Tabby and white", "Curry")
-  )
-}
+  object Oswald {
+    val color: String = "Black"
+    val food: String = "Milk"
+  }
 
+  object Henderson {
+    val color: String = "Ginger"
+    val food: String = "Chip"
+  }
+
+  object Quentin {
+    val color = "Tabby and white"
+    val food = "Curry"
+  }
+}

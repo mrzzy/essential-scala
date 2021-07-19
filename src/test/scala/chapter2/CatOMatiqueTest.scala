@@ -9,16 +9,18 @@ import org.scalatest.flatspec.AnyFlatSpec
 class CatOMatiqueTest extends AnyFlatSpec {
   behavior of "CatOMatique"
 
-  it should "contain data of 3 cats" in {
-    val expectedCats = List(
-      ("Oswald", "Black", "Milk"),
-      ("Henderson", "Ginger", "Chips"),
-      ("Quentin", "Tabby and white", "Curry")
-    ).map(c =>  new Cat(c._1, c._2, c._3))
+  "Oswald" should "have correct attributes" in {
+    assert(CatOMatique.Oswald.color == "Black")
+    assert(CatOMatique.Oswald.food == "Milk")
+  }
 
-    // check that CatOMatique contains the data of all 3 cats
-    assert(expectedCats.map(
-      CatOMatique.cats.contains(_)
-    ).fold(true)(_ && _))
+  "Henderson" should "have correct attributes" in {
+    assert(CatOMatique.Henderson.color == "Ginger")
+    assert(CatOMatique.Henderson.food == "Chip")
+  }
+
+  "Quentin" should "have correct attributes" in {
+    assert(CatOMatique.Quentin.color == "Tabby and white")
+    assert(CatOMatique.Quentin.food == "Curry")
   }
 }
