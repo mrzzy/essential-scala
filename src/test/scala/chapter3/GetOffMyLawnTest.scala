@@ -3,7 +3,7 @@
  * exercise 3.5.3.2 Get Off My Lawn!
 */
 
-package chapter3;
+package chapter3
 
 import org.scalatest.flatspec.AnyFlatSpec
 

@@ -3,7 +3,7 @@
  * exercise 3.4.5.4 Application, Application, Application
  */
 
-package chapter3;
+package chapter3
 
 case class CasePerson(firstName: String, lastName: String)
 

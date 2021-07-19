@@ -3,7 +3,7 @@
  * exercise 3.3.2.2 Extended Body of Work
  */
 
-package chapter3;
+package chapter3
 
 // copied from DirectorialDebug.scala with 'Extended' name prefix
 class ExtendedDirector(

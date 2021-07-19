@@ -3,7 +3,7 @@
  * exercise 3.1.6.5 Counting Faster
  */
 
-package chapter3;
+package chapter3
 
 class FasterCounter(val count: Int) {
   def inc(by: Int = 1) = new FasterCounter(count + by)
