@@ -3,7 +3,7 @@
  * exercise 2.4.5.1: Cat-o-matique
 */
 
-package co.mrzzy.essentialScala.chapter2;
+package chapter2
 
 case class Cat(name: String, color: String, food: String)
 

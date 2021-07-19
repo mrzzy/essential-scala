@@ -3,7 +3,7 @@
  * exercise 2.4.5.3: Precise Square Dance!
 */
 
-package co.mrzzy.essentialScala.chapter2;
+package chapter2
 
 object PreciseSquareDance {
   object calc {

@@ -1,9 +1,9 @@
 /*
  * essential-scala
- * exercise 2.4.5.1: Cat-o-matique
+ * exercise 2.4.5.1: Cat-o-matique test
 */
 
-package co.mrzzy.essentialScala.chapter2;
+package chapter2
 import org.scalatest.flatspec.AnyFlatSpec
 
 class CatOMatiqueTest extends AnyFlatSpec {

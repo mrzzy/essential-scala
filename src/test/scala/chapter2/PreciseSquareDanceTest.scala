@@ -1,9 +1,9 @@
 /*
  * essential-scala
- * exercise 2.4.5.3: Precise Square Dance!
+ * exercise 2.4.5.3: Precise Square Dance! test
 */
 
-package co.mrzzy.essentialScala.chapter2;
+package chapter2
 
 import org.scalatest.flatspec.AnyFlatSpec
 
