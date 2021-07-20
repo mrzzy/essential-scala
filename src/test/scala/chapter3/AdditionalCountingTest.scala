@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 3.1.6.6 Additional Counting
-*/
+ */
 
 package chapter3
 
@@ -15,4 +15,3 @@ class AddtionalCountingTest extends AnyFlatSpec {
     assert(new AddCounter(2).adjust(add6).inc.count == 9)
   }
 }
-

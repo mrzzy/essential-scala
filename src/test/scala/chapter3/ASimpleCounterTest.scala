@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 3.1.6.4 A Simple Counter
-*/
+ */
 
 package chapter3
 

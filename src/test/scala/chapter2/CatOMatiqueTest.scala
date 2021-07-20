@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 2.4.5.1: Cat-o-matique test
-*/
+ */
 
 package chapter2
 import org.scalatest.flatspec.AnyFlatSpec

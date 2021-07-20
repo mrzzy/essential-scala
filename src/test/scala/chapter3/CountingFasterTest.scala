@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 3.1.6.5 Counting Faster
-*/
+ */
 
 package chapter3
 

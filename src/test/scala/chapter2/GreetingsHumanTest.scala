@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 2.4.5.5: Geetings, Human! test
-*/
+ */
 
 package chapter2
 

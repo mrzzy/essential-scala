@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 3.4.5.3 Case Class Counter
-*/
+ */
 
 package chapter3
 

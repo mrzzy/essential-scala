@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 3.5.3.1 Feed the Cats
-*/
+ */
 
 package chapter3
 

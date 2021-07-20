@@ -1,7 +1,7 @@
 /*
  * essential-scala
  * exercise 3.1.6.1: Cats, Again
-*/
+ */
 
 package chapter3
 
@@ -15,12 +15,15 @@ class CatsAgainTest extends AnyFlatSpec {
       ("Oswald", "Black", "Milk"),
       ("Henderson", "Ginger", "Chips"),
       ("Quentin", "Tabby and white", "Curry")
-    ).map(c =>  new Cat(c._1, c._2, c._3))
+    ).map(c => new Cat(c._1, c._2, c._3))
 
     // check that CatOMatique contains the data of all 3 cats
-    assert(expectedCats.map(
-      CatsAgain.cats.contains(_)
-    ).fold(true)(_ && _))
+    assert(
+      expectedCats
+        .map(
+          CatsAgain.cats.contains(_)
+        )
+        .fold(true)(_ && _)
+    )
   }
 }
-
