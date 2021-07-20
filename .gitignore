@@ -44,3 +44,6 @@ tags
 # Persistent undo
 [._]*.un~
 .vim/
+
+# vim-projectionist
+/.projections.json
