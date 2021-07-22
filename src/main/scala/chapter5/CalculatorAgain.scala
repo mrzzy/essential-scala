@@ -10,7 +10,7 @@ import CovariantSum._
 sealed trait Expression {
   type Result = Sum[String, Double]
   // evaluates expression to a sum / union type of either:
-  // - message string stating the error that occured during the evaluation
+  // - message string stating the error that occurred during the evaluation
   // - result of evaluating the expression as a double value.
   def eval: Result = {
     this match {

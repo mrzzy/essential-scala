@@ -8,7 +8,7 @@
 
 package chapter5
 
-// defines the result of indexing a linked lsit
+// defines the result of indexing a linked list
 sealed trait IndexResult[T]
 final case class Success[T](value: T) extends IndexResult[T]
 final case class Failure[T](message: String) extends IndexResult[T]
